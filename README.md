@@ -19,7 +19,7 @@ Sifat-sifat tersebut dapat dimanfaatkan untuk mempermudah perhitungan modulo. Se
 
 ---
 ### 3. Membuat Bilangan Prima dengan mengimplementasikan Algoritma Sieve Of Eratost
-<img align="center" width=200px height=200px alt="side_sticker" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif"/>
+<img align="center" width=600px height=600px alt="side_sticker" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif"/>
 
 Sumber : 
 - https://id.wikipedia.org/wiki/Tapis_Eratosthenes
