@@ -95,6 +95,13 @@ Ouput
 nter The Number : 6
 Resault Is : 720
 ```
->>>>>>> Update Readme
-=======
->>>>>>> ffe08b29f713ffb6f60f6c68561b324bf7d86438
+---
+### Amstrong Number
+What is Amstrong Number ?
+```
+153 = (1*1*1) + (5*5*5) + (1*1*1)
+153 = 153
+
+Is Amstrong Number
+```
+
