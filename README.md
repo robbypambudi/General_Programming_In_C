@@ -104,4 +104,13 @@ What is Amstrong Number ?
 
 Is Amstrong Number
 ```
-
+---
+### Number Triangel
+```
+Enter The Range : 5
+    1
+   121
+  12321
+ 1234321
+123454321
+```
