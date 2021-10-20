@@ -29,6 +29,67 @@ Sumber :
 Sumber :
 - https://id.wikipedia.org/wiki/Algoritme_Euklides
 
-### 5. Fibonaci Series Without Rekrusif
+### 5. Fibonaci Series
 
+- With recursive
+```
+Function (int N)
+{
+    static int N1 = 0, N2 = 1, N3;
+
+    if (N > 0)
+    {
+        N3 = N1 + N2;
+        N1 = N2;
+        N2 = N3;
+        printf("%d ", N3);
+        fibonaci(N - 1);
+    }
+}
+```
+- Without recursive
+```
+for (int i = 2; i < N; ++i)
+    {
+        N3 = N1 + N2;
+        printf("%d ", N3);
+        N1 = N2;
+        N2 = N3;
+    }
+```
+**What is Static Int ?** <br>
+https://www.geeksforgeeks.org/static-variables-in-c/
+
+### Factorial 
+- Factorial Using Loop
+```
+for (int i = N; i > 0; i--)
+    {
+        Fact *= i;
+    }
+```
+Output
+```
+Enter Number : 5 
+5 4 3 2 1 
+Factorial is : 120
+``` 
+
+- Factorial Using Recursive
+```
+Function factorial(int number)
+{
+    if (number == 1)
+        return 1;
+    else
+    {
+        return (number * (factorial(number - 1)));
+    }
+}
+```
+Ouput
+```
+nter The Number : 6
+Resault Is : 720
+```
 >>>>>>> Update Readme
